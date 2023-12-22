@@ -15,6 +15,9 @@ class Program
         Fraction prod = f1 * f2;
         Console.WriteLine(prod);
 
+        Fraction quot = f1 / f2;
+        Console.WriteLine(quot);
+
         Console.ReadLine();
 
     }
