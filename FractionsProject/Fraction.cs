@@ -26,6 +26,7 @@ namespace FractionsProject
             int newDen = f1.denominator * f2.denominator;
             return new Fraction(newNum, newDen);
         }
-        
+       
+
     }
 }
