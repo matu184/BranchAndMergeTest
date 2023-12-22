@@ -32,6 +32,12 @@ namespace FractionsProject
             int newDen = f1.denominator * f2.denominator;
             return new Fraction(newNum, newDen);
         }
+        public static Fraction operator *(Fraction f1, Fraction f2)
+        {
+            int newNum = f1.numerator * f2.numerator;
+            int newDen = f1.denominator * f2.denominator;
+            return new Fraction(newNum, newDen);
+        }
 
     }
 }
