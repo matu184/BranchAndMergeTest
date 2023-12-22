@@ -18,6 +18,8 @@ class Program
         Fraction quot = f1 / f2;
         Console.WriteLine(quot);
 
+       
+
         Console.ReadLine();
 
     }
